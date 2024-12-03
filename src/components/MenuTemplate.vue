@@ -1,66 +1,37 @@
 <template>
-  <div>
-    <nav>
-      <ul>
-        <li class="card"><router-link to="/">Accueil</router-link></li>
-        <li class="card"><router-link to="/present-me">Qui suis-je ?</router-link></li>
-        <li class="card"><router-link to="/template-texte">Mon entreprise</router-link></li>
-        <li class="card"><router-link to="/template-texte">Flexio c'est quoi ?</router-link></li>
-        <li class="card"><router-link to="/template-texte">Mon développement de compétences</router-link></li>
-
-      </ul>
-    </nav>
+  <div class="navbar">
+        <NavItem to="/" label="Acceuil"></NavItem>
+        <NavItem to="/present-me" label="Qui suis-je ?"></NavItem>
+        <NavItem to="/template-texte" label="Mon entreprise"></NavItem>
+        <NavItem to="/template-texte" label="Flexio c'est quoi ?"></NavItem>
+        <NavItem to="/template-texte" label="Mon développement de compétences"></NavItem>
   </div>
 </template>
 
 <script>
+import NavItem from './NavItem.vue';
+
 export default {
-  name: "MenuTemplate"
-}
+  name: "MenuTemplate",
+  components: {
+    NavItem,
+  },
+};
 </script>
 
 <style scoped>
-nav {
-  background-color: #333;
-  padding: 1rem;
+
+/* Style général de la barre de navigation */
+.navbar {
+  position: fixed; /* Fixe la barre */
+  top: 0; /* Positionne en haut de la page */
+  left: 0; /* Aligne à gauche */
+  width: 100%; /* Prend toute la largeur */
+  background-color: #f8f9fa; /* Couleur de fond */
+  padding: 2% 2% 2% 2% ; /* Espacement interne */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Ombre subtile */
+  z-index: 1000; /* Assure que la barre est au-dessus d'autres éléments */
 }
 
-ul {
-  list-style-type: none;
-  padding: 0;
-}
 
-li {
-  display: inline;
-  margin-right: 10px;
-}
-
-div {
-  font-family: 'Calisto MT', sans-serif;
-  font-size: 20px;
-}
-
-.card{
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre de la carte */
-  width: fit-content;
-  padding: 1% 1% 1% 1%;
-  font-size: 20px;
-  background-color: #fff;
-}
-
-a {
-  text-decoration: none;
-  color: #333;
-}
-a:hover{
-  text-decoration: none;
-  color: #333;
-}
-.card:hover {
-  color: white;
-  background-color: #707070;
-
-}
 </style>

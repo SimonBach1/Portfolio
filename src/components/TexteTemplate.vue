@@ -25,7 +25,7 @@ h2 {
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
   background-color: #fff;
   width: fit-content;
-  padding: 5%;
+  padding: 3%;
   font-size: 20px;
   color: #333;
 }

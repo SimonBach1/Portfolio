@@ -1,7 +1,7 @@
 <template>
   <div>
     <h1>Ma présentation</h1>
-    <h1>SIMON BACH</h1>
+    <h2>SIMON BACH</h2>
 
     <div class="image-text-container">
       <template-image
@@ -29,12 +29,13 @@ export default {
     return {
       htmlContent: '        <div style="text-align: center">Qui suis-je ?</div><br><br>\n' +
           '        <div style="text-align: justify">\n' +
-          '          Ce portfolio se compose de plusieurs parties :<br><br>\n' +
           '          <div style="padding-left: 5%">\n' +
-          '            - La première sera une courte présentation de moi-même et de mon rôle au sein de mon entreprise<br><br>\n' +
-          '            - La seconde sera une présentation de mon entreprise Flexio<br><br>\n' +
-          '            - La troisième sera une explication de l\'environnment autour du logiciel homonyme que développe Flexio <br><br>\n' +
-          '            - La quatrième sera la démonstration des compétences que nous devons acquérir tout au long de cette année <br><br>\n' +
+          'Étudiant en 3ᵉ année de BUT Informatique, actuellement en 2ᵉ année d&apos;alternance. <br>' +
+          ' Passionné par le développement, je mets en pratique mes compétences à travers des projets<br> en entreprise, '+
+          'où je développe des solutions concrètes et apprends chaque jour.<br>'+
+          'Les missions que l&apos;on me confie sont :  <br><br>\n' +
+          '- L&apos;ajout de nouvelles fonctionnalités dans le logiciel Flexio (remaniement de code existant ou nouveau projet <br><br>\n'+
+          '- Assurer la maintenance des projets que j&apos;ai développé depuis mon arrivée en septembre 2023'+
           '          </div>\n' +
           '        </div>'
     };

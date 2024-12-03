@@ -1,15 +1,14 @@
 <template>
   <div>
     <h1>Portfolio : Troisième année de BUT à l'IUT de Nord Franche-Comté</h1>
-    <h1>SIMON BACH</h1>
+    <h2 >SIMON BACH</h2>
     <div class="image-text-container">
       <template-image
-          imagePath="/images/acceuil/profil.jpg"
+          imagePath="images/acceuil/profil.jpg"
           altText="Profil utilisateur"
           maxWidth="800px"
           maxHeight="600px"
       />
-
       <TemplateTexte :content="htmlContent"></TemplateTexte>
 
     </div>
