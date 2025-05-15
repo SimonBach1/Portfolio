@@ -1,6 +1,6 @@
 <template>
   <div class="navbar">
-        <NavItem to="/" label="Acceuil"></NavItem>
+        <NavItem to="/" label="Accueil"></NavItem>
         <NavItem to="/present-me" label="Qui suis-je ?"></NavItem>
         <NavItem to="/template-texte" label="Mon entreprise"></NavItem>
         <NavItem to="/template-texte" label="Flexio c'est quoi ?"></NavItem>

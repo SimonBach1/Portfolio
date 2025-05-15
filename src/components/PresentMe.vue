@@ -3,9 +3,9 @@
     <h1>Ma présentation</h1>
     <h2>SIMON BACH</h2>
 
-    <div class="image-text-container">
+    <div style="padding-left: 2%" class="image-text-container">
       <template-image
-          imagePath="/images/acceuil/profil.jpg"
+          imagePath="/images/perso/profil.jpg"
           altText="Profil utilisateur"
           maxWidth="800px"
           maxHeight="600px"
